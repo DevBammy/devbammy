@@ -37,7 +37,8 @@ html {
 body {
   background-color: var(--white);
   line-height: 1.4;
-  font-family: "Poppins", sans-serif;
+/*   font-family: "Poppins", sans-serif; */
+  font-family: 'Dosis', sans-serif;
   overflow-x: hidden;
 }
 
