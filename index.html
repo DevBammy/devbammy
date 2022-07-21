@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Olorunyomi Emmanuel B." />
+    <link rel="shortcut icon" href="./dist/images/Emmanuel.png" type="image/x-icon">
+    <title>devBammy | Front-End Web Developer</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Particles Css -->
+    <link rel="stylesheet" href="./dist/css/particles.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./dist/css/global.css" />
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./dist/css/mobile.css" />
+    <link rel="stylesheet" href="./dist/css/tab.css" />
+  </head>
+  <body>
+    <!-- Preloader Starts -->
+    <div id="preloader">
+      <img src="./dist/images/mandala.png" alt="" />
+      <h2>Relax guy! d site go soon load!</h2>
+    </div>
+    <div id="scrollToTop">
+      <i class="fa fa-chevron-up"></i>
+    </div>
+    <!-- Preloader Ends -->
+    <!-- Hero and Header Section -->
+    <header class="hero">
+      <!-- Particles divs -->
+      <div id="particle-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+      </div>
+      <div class="container">
+        <!-- Navigations -->
+        <nav>
+          <div class="logo">
+            <a href="/"
+              ><h1><span>{</span>devBammy<span>}</span></h1></a
+            >
+          </div>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="nav-social-links">
+            <a href="https://github.com/devbammy" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://twitter.com/EmmanuelBammy" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/emmanuel-olorunyomi-39b33a184/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href=""><i class="fa fa-moon" id="theme-toggler"></i></a>
+          </div>
+        </nav>
+
+        <div id="toggle">
+          <i class="fa fa-bars"></i>
+        </div>
+
+        <!-- Navigations Ends -->
+
+        <!-- Hero Sections -->
+
+        <div class="hero-row" id="home">
+          <div class="hero-col">
+            <h1>Hey, I'm Olorunyomi <span>Emmanuel</span></h1>
+            <p>
+              Creative Front-End Web Developer, I create attractive and
+              responsive website designs for an exciting and flexible user
+              experience.
+            </p>
+            <div class="hero-col-links">
+              <a href="#about" class="btn">More About Me</a>
+              <a href="/" class="phone openModal"
+                ><i class="fa fa-phone"></i
+              ></a>
+            </div>
+          </div>
+          <div class="hero-col image">
+            <img src="./dist/images/Emmanuel.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Container -->
+      <div id="modal">
+        <div class="modal-heading">
+          <h3>Contacts info</h3>
+          <i class="fa fa-times closeModal"></i>
+        </div>
+        <div class="modal-links">
+          <div class="modal-info">
+            <i class="fab fa-github"></i>
+            <div>
+              <h3>Github</h3>
+              <a
+                href="https://github.com/devbammy"
+                target="_blank"
+                class="modalLinks"
+                >github.com/devbammy</a
+              >
+            </div>
+          </div>
+          <div class="modal-info">
+            <i class="fab fa-twitter"></i>
+            <div>
+              <h3>Twitter</h3>
+              <a
+                href="https://twitter.com/EmmanuelBammy"
+                target="_blank"
+                class="modalLinks"
+                >twitter.com/EmmanuelBammy</a
+              >
+            </div>
+          </div>
+          <div class="modal-info">
+            <i class="fa fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <a
+                href="mailto:devbammy@gmail.com"
+                target="_blank"
+                class="modalLinks"
+                >devbammy@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="modal-info">
+            <i class="fa fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <a href="tel:08111006160" class="modalLinks">+2348111006160</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about">
+        <div id="downBtn">
+          <i class="fa fa-chevron-down up"></i>
+          <i class="fa fa-chevron-down down"></i>
+        </div>
+      </a>
+    </header>
+    <!-- Hero and Header Section Ends -->
+
+    <!-- Section About Starts -->
+    <section class="about" id="about">
+      <h5>devBammy</h5>
+      <h2>About Me</h2>
+      <div class="container">
+        <p class="lead">
+          Creative Front-End Web Developer, I have proven to collaborate
+          effectively with senior developers while spending extra time being
+          mentored. Enjoy working closely with team members to ensure workloads
+          are effectively redirected to bottlenecks and personally picking up
+          the slack when necessary. With a passion for growth and software
+          development, I have sharpened my skills and knowledge of web
+          development. Always ready to apply my passion for coding to a talented
+          engineering team to develop quality solutions.s
+        </p>
+
+        <div class="about-row">
+          <div class="about-col">
+            <div class="icon">
+              <i class="fa fa-code"></i>
+            </div>
+            <div class="icon-text">
+              <h3>Front-End Web Developer</h3>
+              <p>HTML5, CSS3, JavaScript, React.js</p>
+            </div>
+          </div>
+
+          <div class="about-col">
+            <div class="icon">
+              <i class="fa-solid fa-pen-nib"></i>
+            </div>
+            <div class="icon-text">
+              <h3>UI/UX Designer</h3>
+              <p>
+                Basic uderstanding of User Interface and User Experience Design
+                using Figma
+              </p>
+            </div>
+          </div>
+
+          <div class="about-col">
+            <div class="icon">
+              <i class="fa fa-pen-ruler"></i>
+            </div>
+            <div class="icon-text">
+              <h3>Graphic Designer</h3>
+              <p>
+                Over 4+ Years experience in Graphic Design using Adobe
+                Photoshop, Adobe Illustrator.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section About Ends -->
+
+    <!-- Section Technologies Starts -->
+    <section class="technologies">
+      <img src="./dist/images/mandala.png" class="mandala" alt="" />
+      <h5>Technologies I Use</h5>
+      <h2>Technologies</h2>
+      <div class="container">
+        <div class="technology-row">
+          <div class="technology-col">
+            <img src="./dist/images/html.jpg" alt="" />
+            <h3>HTML5</h3>
+          </div>
+          <div class="technology-col">
+            <img src="./dist/images/css.png" alt="" />
+            <h3>CSS3</h3>
+          </div>
+          <div class="technology-col">
+            <img src="./dist/images/js.png" alt="" />
+            <h3>JavaScript</h3>
+          </div>
+          <div class="technology-col">
+            <img src="./dist/images/react.png" alt="" />
+            <h3>React.js</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Technologies Ends -->
+
+    <!-- Section Projects Starts -->
+    <section class="projects" id="projects">
+      <h5>Projects I have developed</h5>
+      <h2>Projects</h2>
+      <div class="container">
+        <div class="projects-row">
+          <div class="projects-col">
+            <div class="project-image">
+              <img src="./dist/images/react-web.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>My Portoflio Website V2.0</h3>
+              <p>
+                This Portfolio website was built using React.js. It is the
+                version 2.0 of my Portfolio Website
+              </p>
+              <small>Built with React.js, CSS3</small>
+              <div>
+                 <a href="https://my-react-portfolio-website.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/My-React-Portfolio-Website" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects-col">
+            <div class="project-image">
+              <img src="./dist/images/clipboard.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Clipboard Landing Page</h3>
+              <p>
+                This is a solution to the Clipboard Landing Page challenge on
+                Frontend Mentor.
+              </p>
+              <small>Built with HTML and CSS </small>
+              <div>
+                <a href="https://clipboard-landing-page-mu-inky.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/Clipboard-Landing-Page" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-col">
+            <div class="project-image">
+              <img src="./dist/images/fylo.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Fylo Data Storage Website</h3>
+              <p>
+                This is a solution to the Fylo data storage component master
+                challenge on Frontend Mentor.
+              </p>
+              <small>Built with HTML and CSS </small>
+              <div>
+                <a href="https://fylo-dark-theme-landing-page-gray.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/Fylo-Dark-Theme-Landing-Page" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects-col">
+            <div class="project-image">
+              <img src="./dist/images/cards.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Card Expansion on hover Effect</h3>
+              <p>This is a mini project done using HTML, CSS, and JavaScript</p>
+              <small>Built with HTML, CSS3, and JavaScript</small>
+              <div>
+                 <a href="https://expanding-cards-woad.vercel.app/"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/expandingCards" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-col">
+            <div class="project-image">
+              <img src="./dist/images/counter.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Counter Application</h3>
+              <p>This is a counter app built with JavaScript</p>
+              <small>Built with HTML, CSS3, and JavaScript</small>
+              <div>
+                 <a href="https://counter-app-ten-weld.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/Counter-App" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-col">
+            <div class="project-image">
+              <img src="./dist/images/Tip-Calculator.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Tip Calculator</h3>
+              <p>
+                This Tip-Calculator app built with JavaScript will calculator
+                how much tip you should give on your total amount
+              </p>
+              <small>Built with HTML, CSS3, and JavaScript</small>
+              <div>
+                 <a href="https://tip-converter.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/tip-converter" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects-col hide">
+            <div class="project-image">
+              <img src="./dist/images/easybank.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Easy Banking Website</h3>
+              <p>
+                This is a solution to the Easy Banking Website challenge on
+                Frontend Mentor.
+              </p>
+              <small>Built with HTML, CSS and JavaScript</small>
+              <div>
+                 <a href="https://easy-bank-landing-page-kappa.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/Easy-Bank-Landing-Page" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-col hide">
+            <div class="project-image">
+              <img src="./dist/images/huddle.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Huddle Landing Page</h3>
+              <p>
+                This is a solution to the Huddle Landing Page challenge on
+                Frontend Mentor.
+              </p>
+              <small>Built with HTML, and CSS</small>
+              <div>
+                 <a href="https://huddle-landing-page-beta-seven.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/Huddle-Landing-Page" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="projects-col hide">
+            <div class="project-image">
+              <img src="./dist/images/bluetheme.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Blue-Theme Landing Page</h3>
+              <p>
+                I decided to replicate a UI/UX design in this project.
+              </p>
+              <small>Built with HTML, and CSS</small>
+              <div>
+                <a href="https://blue-theme-landing-page.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/Blue-Theme-Landing-Page" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-col hide">
+            <div class="project-image">
+              <img src="./dist/images/loopstudio.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>loopstudio Landing Page</h3>
+              <p>
+                This is a solution to the Loopstudio Landing Page challenge on
+                Frontend Mentor.
+              </p>
+              <small>Built with HTML, and CSS</small>
+              <div>
+                <a href="https://loopstudios-landing-page-main.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/loopstudios-landing-page-main" target="_blank"><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-col hide">
+            <div class="project-image">
+              <img src="./dist/images/video.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Video Website</h3>
+              <p>I was bored and decided to play around with HTML and CSS.</p>
+              <small>Built with HTML, and CSS</small>
+              <div>
+                <a href="https://video-player-orcin.vercel.app/" target="_blank"><i class="fas fa-link"></i>Live Preview</a>
+                <a href="https://github.com/DevBammy/Video-Player" target="_blank""><i class="fab fa-github"></i>View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-col hide">
+            <div class="project-image">
+              <img src="./dist/images/homat.png" alt="" />
+            </div>
+            <div class="project-text">
+              <h3>Homat Foods Website</h3>
+              <p>
+                This website was built when i got bored and needed to play with
+                my laptop.
+              </p>
+              <small>Built with HTML, and CSS</small>
+              <div>
+                <a href="https://homat-foods.vercel.app/" target="_blank"
+                  ><i class="fas fa-link"></i>Live Preview</a
+                >
+                <a
+                  href="https://github.com/DevBammy/Homat-Foods"
+                  target="_blank"
+                  ><i class="fab fa-github"></i>View Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn" id="viewMore">View More</button>
+    </section>
+    <!-- Section Projects Ends -->
+
+    <!-- Footer Starts -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-col">
+            <a href="/"><h3 class="footer-brand">{devBammy}</h3></a>
+            <p>Creative Front-End Web Developer</p>
+          </div>
+          <div class="footer-col">
+            <h3>Links</h3>
+            <nav>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#technologies">Technologies</a></li>
+            </nav>
+          </div>
+          <div class="footer-col">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <a href="tel:08111006160"
+                  ><i class="fa fa-phone"></i> 08111006160</a
+                >
+              </li>
+              <li>
+                <a href="mailto:devbammy@gmail.com"
+                  ><i class="fa fa-envelope"></i> devbammy@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col footer-links">
+            <h3>Social Links</h3>
+            <ul>
+              <li>
+                <a href="https://github.com/devbammy" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/EmmanuelBammy" target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/emmanuel-olorunyomi-39b33a184/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Starts Ends -->
+
+    <script src="./dist/js/main.js"></script>
+  </body>
+</html>

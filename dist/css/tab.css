@@ -1,0 +1,144 @@
+/* Tablet Devices */
+@media screen and (min-width: 577px) and (max-width: 899.9px) {
+  #downBtn {
+    display: none;
+  }
+
+  .container {
+    width: var(--container-md);
+  }
+
+  .hero {
+    height: max-content;
+  }
+
+  /* Responsive Nav Toggle */
+  #toggle {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    z-index: 1005;
+  }
+
+  #toggle i {
+    font-size: 2.6rem;
+  }
+
+
+  .hero nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 60%;
+    background-color: var(--primary-color);
+    z-index: 100;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: var(--transition);
+    z-index: 1001;
+  }
+
+  .hero .logo h1 {
+    color: var(--light);
+    margin-top: 8rem;
+  }
+
+  .hero nav ul {
+    flex-direction: column;
+  }
+
+  .hero nav ul li {
+    margin: 1rem 0;
+  }
+
+  .hero nav a {
+    color: var(--light);
+  }
+
+  /* Responsive Nav Toggle Ends*/
+
+  /* Hero section starts here */
+  .hero-row {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 5rem;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .hero-col {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .hero-row .image {
+    height: 500px;
+    width: 500px;
+    align-self: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+
+  /* .hero-row p {
+    font-size: 1.4rem;
+  } */
+
+  .hero-col-links {
+    gap: 1.4rem;
+  }
+
+  /* About */
+  .about {
+    height: max-content;
+  }
+
+  .about-row .about-col .icon {
+    height: 40px;
+    width: 40px;
+  }
+  /* .about-row .about-col .icon i {
+    font-size: 1rem;
+  } */
+
+  .about p {
+    /* font-size: 0.9rem; */
+    text-align: justify;
+  }
+
+  /* Projects */
+  .projects-row {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  /* Footer */
+  .footer-row {
+    grid-gap: 1.2rem;
+  }
+}
+
+/* Small Laptop Devices */
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+  .container {
+    width: var(--container-md);
+  }
+
+  
+
+  .hero {
+    height: max-content;
+  }
+
+  .hero-row {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    height: max-content;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+  }
+}
