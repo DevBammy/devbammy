@@ -1,25 +1,7 @@
-### Hi there 👋
+Hi there 👋
+⚡ About Me: My name is Bamidele and I’m a Frontend Engineer with 3 years technical experience building web apps. I’ve worked with JavaScript and React.js
 
-<!--
-**DevBammy/devbammy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-This project was built using HTML, CSS, and JavaScript. Its the third version of my portfolio websites i have built...
-
-I am currently learning more of JavaScript to enhance my knowledge of it and would like some help in getting started with React.js
-
-you can reach me via mail on devbammy@gmail.com
-
-I am open to collaborate on any new project or ideas.
-
-CHEERS!!!
+🌱 I’m currently learning how to be do more with JavaScript
+👯 I’m looking to collaborate to work on projects
+🤔 I’m looking for help with junior frontend roles
+📫 How to reach me: devbammy@gmail.com
