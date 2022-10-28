@@ -76,13 +76,39 @@
   height: 450px;
   width: 450px;
   border-radius: 50%;
-  border: 3px dashed var(--primary-color);
   overflow: hidden;
+  position: relative;
+}
+
+header .hero-row .image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px dashed var(--primary-color);
+  animation: col 20s linear infinite;
+  /* background-color: transparent; */
+}
+
+@keyframes col {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .hero-row img {
   object-fit: cover;
   transition: var(--transition);
+  /* display: none; */
 }
 
 .hero-row .image:hover img {
@@ -125,17 +151,17 @@
 /* Modal */
 .hero #modal {
   position: absolute;
-  background-color: var(--white);
-  padding: 2rem;
-  height: max-content;
-  width: 40%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  height: max-content;
+  width: 40%;
+  padding: 2rem;
   border-radius: 1rem;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  display: none;
   transition: var(--transition);
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(16px);
+  display: none;
 }
 
 #modal .modal-heading {
@@ -180,7 +206,7 @@
   text-decoration: underline;
 }
 
-.modal-links a{
+.modal-links a {
   font-size: 2rem;
 }
 
@@ -197,7 +223,7 @@
   width: 100%;
 }
 
-.about p{
+.about p {
   font-size: 1.7rem;
 }
 
@@ -400,7 +426,7 @@
   font-size: 1.6rem;
 }
 
-.project-text div{
+.project-text div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
@@ -462,7 +488,7 @@ footer {
   font-size: 2rem;
 }
 
-#contact .footer-col p{
+#contact .footer-col p {
   color: var(--light);
 }
 
@@ -475,7 +501,7 @@ footer {
   margin-bottom: 2rem;
 }
 
-#contact .footer-col h3::after{
+#contact .footer-col h3::after {
   content: "";
   position: absolute;
   bottom: -2px;
@@ -524,7 +550,7 @@ footer a:hover:after {
   margin: 0 1rem;
 }
 
-#contact .footer-links li a{
+#contact .footer-links li a {
   font-size: 2.2rem;
 }
 
