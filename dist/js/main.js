@@ -1,9 +1,9 @@
 // Preloader Script
 const loader = document.getElementById("preloader");
-
-window.addEventListener("load", () => {
+function hidePreLoader() {
   loader.style.display = "none";
-});
+}
+setTimeout(hidePreLoader, 2000);
 
 // Scroll Top Top
 const scrollToTop = document.getElementById("scrollToTop");
