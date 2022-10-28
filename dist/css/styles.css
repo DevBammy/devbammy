@@ -160,7 +160,6 @@ header .hero-row .image:after {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   transition: var(--transition);
   transform: translate(-50%, -50%);
-  background: var(--primary-color);
   backdrop-filter: blur(16px);
   display: none;
 }
